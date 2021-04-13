@@ -15,8 +15,8 @@ driver = webdriver.Chrome("chromedriver")
 #                                  "version": "latest",
 #                                  "platform": "windows",
 #                                  # "deviceName": "Pixel 3",
-#                                  "username": "johnreese.vt@gmail.com",
-#                                  "password": "u0af4e32dc4fb29d",
+#                                  "username": "user@domain.com",
+#                                  "password": "password",
 #                                  "recordVideo": True})
 
 # navigate
