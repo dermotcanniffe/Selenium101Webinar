@@ -10,8 +10,8 @@ from os import getcwd
 # Create the webdriver instance
 # instead of running against chrome, we're gonna run on CrossBrowserTesting
 
-#user = "johnreese.vt@gmail.com"
-#auth = "u0af4e32dc4fb29d"
+#user = "user@domain.com"
+#auth = ""
 
 # driver = webdriver.Remote(
 #       desired_capabilities={"browserName": "chrome", "platform": "windows 10"}
@@ -26,8 +26,8 @@ from os import getcwd
 
 # Put your username and authey below
 # You can find your authkey at crossbrowsertesting.com/account
-username = "dermot.canniffe@smartbear.com"
-authkey = "u1b26bf49cce3f32"
+username = "user@domain.com"
+authkey = ""
 
 api_session = requests.Session()
 api_session.auth = (username, authkey)
@@ -63,7 +63,7 @@ login = driver.find_element_by_id('submit')
 username.send_keys('not-a-user@crossbrowsertesting.com') # tester@crossbrowsertesting.com
 password.send_keys('not-the-password') # test123
 # Correct Credentials 
-# username.send_keys('tester@crossbrowsertesting.com') # 
+# username.send_keys('user@domain.com') # 
 # password.send_keys('test123') # test123
 login.click()
 
